@@ -11,6 +11,7 @@ pipeline {
 
       steps {
         sayHello 'Awesome Student!'
+        sayHello 'Vince'
       }
     }
     stage('Git Information') {
